@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Footer
+
+# Model Form Field configuration
+form: $/manager/ffooterx/models/footer/fields.yaml
+
+# Model Class name
+modelClass: Manager\Ffooterx\Models\Footer
+
+# Default redirect location
+defaultRedirect: manager/ffooterx/footer
+
+# Create page
+create:
+    title: Create Footer
+    redirect: manager/ffooterx/footer/update/:id
+    redirectClose: manager/ffooterx/footer
+
+# Update page
+update:
+    title: Edit Footer
+    redirect: manager/ffooterx/footer
+    redirectClose: manager/ffooterx/footer
+
+# Preview page
+preview:
+    title: Preview Footer

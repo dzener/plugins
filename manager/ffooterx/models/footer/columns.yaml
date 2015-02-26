@@ -1,0 +1,37 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    title:
+        label: manager.ffooterx::lang.footer.title
+        searchable: true
+        
+    sort_order:    
+        label: manager.ffooterx::lang.footer.sort_order
+        searchable: true
+    state:
+        label: manager.ffooterx::lang.footer.state
+        searchable: true
+        type: switch
+    rotate:
+        label: manager.ffooterx::lang.footer.rotate
+        searchable: true
+        invisible: true
+        type: switch
+    public:
+        label: manager.ffooterx::lang.footer.public
+        searchable: true
+        invisible: true
+        type: switch     
+    created_at:
+        label: manager.ffooterx::lang.footer.created
+        searchable: true   
+        type: date
+    updated_at:
+        label: manager.ffooterx::lang.footer.updated
+        searchable: true   
+        type: date

@@ -1,0 +1,27 @@
+<div class="container-fluid forcetop">
+    <div class="row final">
+        <div id="footer">
+            <div id="top_footer">
+                <ul>
+                {% for footers in footer %}
+                <li class=" "><a href="{{ footers.link }}"></a>
+                      <img src="{{footers.icons.0.path}}" alt="{{ footers.title }}"/>
+                      <span class="footer-2-lines">{{ footers.title }}</span>
+                    {% if footers.rotate %}
+                             <div class="rotate-wrapper{{loop.index-1}}">
+                                <div class="rotate-placeholder{{loop.index-1}}">
+                                    {{ footers.content_html|raw }}
+                                 </div>
+                             </div>
+                    {% else %}
+                        <p>{{ footers.content_html|raw }}</p>
+                    {% endif %}
+                </li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+

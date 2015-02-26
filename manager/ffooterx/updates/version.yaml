@@ -1,0 +1,8 @@
+1.0.1: First version of ffooterx
+
+1.0.2: 
+        - Created Featured_Footer Table
+        - create_manager_ffooterx_footers_table.php
+1.0.3:
+        - Update table with field link_url
+   

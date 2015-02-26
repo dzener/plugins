@@ -1,0 +1,65 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    title:
+        label: manager.ffooterx::lang.footer.title
+        span: left
+        placeholder: manager.ffooterx::lang.footer.title_placeholder
+        
+    icons:
+        label: Icon
+        span: right
+        type: fileupload
+        mode: image
+        imageHeight: 100
+        imageWidth: 100
+        
+    file_names:
+        label: File
+        span: right
+        type: fileupload
+        mode: file      
+        
+    content_html:
+        tab: manager.ffooterx::lang.footer.tab_edit
+        stretch: true
+        span: left
+        height: 250px
+        cssClass: field-slim
+        type: codeeditor
+        language: markdown
+        showGutter: false
+        wrapWords: true
+        fontSize: 13
+        margin: 15
+        
+    sort_order:
+        label: manager.ffooterx::lang.footer.sort_order
+        type: dropdown
+        default: 1
+        span: left
+
+    link_url:
+        label: Link
+        placeholder: manager.ffooterx::lang.footer.link_url_placeholder
+        span: left
+        type: text    
+        
+    state:
+        label: manager.ffooterx::lang.footer.state
+        span: right
+        type: switch
+
+    rotate:
+        label: manager.ffooterx::lang.footer.rotate
+        span: right
+        type: switch
+        
+    public:
+        label: manager.ffooterx::lang.footer.public
+        span: right
+        type: switch
+        
