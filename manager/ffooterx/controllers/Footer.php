@@ -21,7 +21,10 @@ class Footer extends Controller
     public function __construct()
     {
         parent::__construct();
-
+        
+        $this->addCss('/plugins/manager/ffooter/assets/ffooterx.css');
+        $this->addJs('/plugins/manager/ffooter/assets/js/rotateslide.js');
+        
         BackendMenu::setContext('Manager.Ffooterx', 'ffooterx', 'footer');
     }
 }
